@@ -1,0 +1,9 @@
+{
+    "app": "python3 cdk_expects_matcher/sample_cdk_app/cdk.py",
+    "context": {
+        "@aws-cdk/core:enableStackNameDuplicates": "true",
+        "aws-cdk:enableDiffNoFail": "true",
+        "@aws-cdk/core:stackRelativeExports": "true",
+        "@aws-cdk/core:newStyleStackSynthesis": "true"
+    }
+}
